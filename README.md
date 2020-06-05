@@ -1,2 +1,3 @@
 # C Exercices
- exércicios feitos em C 
+ 
+ exércicios da faculdade feitos em C 
