@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-main() {
+main(){
 //VARIBLES
     float fuel, distance, total;
 //INPUT
@@ -13,6 +13,5 @@ main() {
     total = distance/fuel;
 //OUTPUT
     printf("Average consumption(km/l): %0.2f \n", total);
-
     system("PAUSE");
 }

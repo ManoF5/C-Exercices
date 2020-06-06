@@ -1,3 +1,3 @@
 # C Exercices
  
- exércicios da faculdade feitos em C 
+ repositorio para exercícios da faculdade, com intuito de organiza-los

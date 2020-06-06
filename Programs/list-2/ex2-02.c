@@ -1,4 +1,4 @@
-// Do a code than repeat 10 times your name
+// Do a code that repeats 10 times your name
 
 #include<stdio.h>
 #include<stdlib.h>
@@ -12,6 +12,7 @@ main(){
     gets(name);
     do{
         printf("%s \n", name);
+        times++;
     }while(times < 10);
     system("PAUSE");
 }
