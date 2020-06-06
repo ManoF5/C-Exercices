@@ -1,3 +1,3 @@
 # C Exercices
  
- repositorio para exercícios da faculdade, com intuito de organiza-los
+  repository for college exercises, made to organize them
