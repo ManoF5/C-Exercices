@@ -2,7 +2,7 @@
 #include<stdlib.h>
 
 main(){
-//VARIBLE
+//VARIBLES
     char name[30];
     float fixed_salary, sales_month,salary;
 //INPUT
