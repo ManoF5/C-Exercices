@@ -23,7 +23,7 @@ main(){
         case 10 : printf("October \n");        break;
         case 11 : printf("November \n");       break;
         case 12 : printf("December \n");       break;
-        default : printf("INVALID NUMBER \n"); break;
+        default : printf("INVALID NUMBER \n"); 
     }
     system("PAUSE");
 }
