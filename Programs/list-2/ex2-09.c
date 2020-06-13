@@ -7,10 +7,10 @@ main(){
 //VARIBLES
     int i;
 //INPUT-OUTPUT
-    for(i = 0;i < 10;i++){
+    for(i = 0;i < 100;i++){
         printf("\n%d ",(i+1));
-        if(i%10 == 0){
-            printf("<-- Multiplo de 10");
+        if((i+1)%10 == 0){
+            printf("<-- Multiple of 10");
         }
     }
 }
