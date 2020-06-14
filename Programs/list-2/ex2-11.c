@@ -44,5 +44,4 @@ main(){
     printf("The number of mans:%d \n", num_mans);
     printf("The sex of the highest person:%c \n", hi_sex);
 }
-
 */
