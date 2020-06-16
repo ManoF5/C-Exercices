@@ -88,15 +88,29 @@ void include(){
 void consultation(){
 //
     int i, opt;
+    char search_name;
     printf("Employee Consultation \n \n 1- By name \n By code \n \n");
-    printf("Option:");
+    printf("Option: ");
     scanf("%d", &opt);
 
     switch(opt){
         case 1:{
             printf("Type the name: ");
-
-
+            gets(search_name); 
+            int s;
+            bool ok = false;
+            for(s = 0;s < num;s++){
+                if(employees[s].name == search_name){
+                    printf("Employee Data \n \nCode:%d \nName:%s \nOffice:%s \nSalary:%d \nAddress:%s \nPhone Number:%d \n \n", employees[i].code_num, employees[i].name, employees[i].office, employees[i].salary, employees[i].adddress, employees[i].phone);
+                    ok = true;
+                    system("PAUSE");
+                    break;  
+                }
+                if(ok = false){
+                    printf("Name not found \n");
+                    system("PAUSE");
+                }
+            break;
         }
         case 2 :{
             printf("Type the code: ");
@@ -105,10 +119,17 @@ void consultation(){
                 printf("Employee Data \n \nCode:%d \nName:%s \nOffice:%s \nSalary:%d \nAddress:%s \nPhone Number:%d \n \n", employees[i].code_num, employees[i].name, employees[i].office, employees[i].salary, employees[i].adddress, employees[i].phone);
                 system("PAUSE");
                 break;
+            }else{
+                printf("Empty code \n \n");
+                system("PAUSE");
+                break;
             }
-
         }
-        default : printf("INVALID NUMBER \n")
+        default :{
+            printf("INVALID NUMBER \n");
+            system("PAUSE");
+            break;
+        }
     }
 
 
