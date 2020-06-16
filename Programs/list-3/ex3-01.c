@@ -106,11 +106,11 @@ void consultation(){
                     system("PAUSE");
                     break;  
                 }
-                if(ok = false){
-                    printf("Name not found \n");
-                    system("PAUSE");
-                }
-            break;
+            }
+            if(ok = false){
+                printf("Name not found \n");
+                system("PAUSE");
+            }
         }
         case 2 :{
             printf("Type the code: ");
