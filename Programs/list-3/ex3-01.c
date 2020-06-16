@@ -29,7 +29,7 @@ struct data{
     bool code;
     int code_num;
 };
-int const num = 50;
+int const num = 20;
 struct data employees[num];
 
 void start(){  
@@ -49,7 +49,7 @@ void start(){
 void include(){
  //INCLUDE EMPLOYEE
     int i;
-    printf("Create the employee code(1-50): ");
+    printf("Create the employee code(1-%d): ", num);
     scanf("%d", &i);
     if(employees[i].code){
         printf("Type the employee name: ");
@@ -86,7 +86,7 @@ void include(){
 }
 
 void consultation(){
-//
+//DATA CONSULTATION
     int i, opt;
     char search_name;
     printf("Employee Consultation \n \n 1- By name \n By code \n \n");
@@ -131,13 +131,78 @@ void consultation(){
             break;
         }
     }
-
-
 }
 
+void change(){
+ //DATA CHANGE  
+    int i;
+    printf("Type which employee code you want to change: ");
+    scanf("%d", &i);
 
+    if(!employees[i].code){
+        printf("Type the employee name: ");
+        fflush(stdin);
+        gets(employees[i].name);
+        
+        printf("Type the employee position: ");
+        fflush(stdin);
+        gets(employees[i].office);
+        
+        printf("Type the employee salary amount: ");
+        fflush(stdin);
+        scanf("%f", &employees[i].salary);
 
+        printf("Type the employee address(street, number, city, state, zip code): ");
+        fflush(stdin);
+        gets(employees[i].adddress);
 
+        printf("Type the employee phone: ");
+        fflush(stdin);
+        scanf("%d", &employees[i].phone);
+
+        printf("Changed data \n");
+        system("PAUSE");
+
+    }else{
+        printf("Code is not in use \n");
+        system("PAUSE");        
+    }
+}
+
+void deletion(){
+ //DATA DELETION
+    int i;
+    printf("Type the employee code you want to delete: ");
+    scanf("%d", &i);
+
+    if(!employees[i].code){
+        strcpy(employees[i].name," ");
+        strcpy(employees[i].office," ");
+        employees[i].salary = 0;
+        strcpy(employees[i].adddress," ");
+        employees[i].phone = 0;
+        employees[i].code = true;
+        employees[i].code_num = 0;
+
+        printf("Code deleted \n");
+        system("PAUSE");
+    }else{
+        printf("Code is not in use \n");
+        system("PAUSE");
+    }
+}
+
+void report(){
+    int i;
+    for(i = 0;i < num;i++){
+        if(!employees[i].code){
+            printf("\n \n \nEmployee code %d data \nName:%s \nOffice:%s \nSalary:%d \nAddress:%s \nPhone Number:%d \n \n \n", employees[i].code_num, employees[i].name, employees[i].office, employees[i].salary, employees[i].adddress, employees[i].phone);
+        }else{
+            printf("\n \n \nEmployee code %d data:Empty \n \n \n", employees[i].code_num);
+        }  
+    } 
+    system("PAUSE");
+}
 
 main(){
  //MENU        
@@ -165,13 +230,16 @@ main(){
             break; 
         }
         case 3 :{
-            
+            change();
+            break;
         }
         case 4 :{
-            
+            deletion();
+            break;
         }
         case 5 :{
-            
+            report();
+            break;
         }
         case 6 :{
             printf("Going out...\n");
@@ -179,4 +247,5 @@ main(){
         }
         default : printf("INVALID NUMBER \n");
     }
+    system("PAUSE");
 }
