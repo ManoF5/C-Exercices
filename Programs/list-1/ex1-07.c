@@ -6,7 +6,7 @@ else, tell which ones the highest number. */
 #include<stdlib.h>
 
 main(){
-//VARIBLES
+//VARIABLES
     int n1, n2;
 //INPUT
     printf("Type two numbers: ");

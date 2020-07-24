@@ -5,7 +5,7 @@ as long as a negative number is not entered, verify if this number is less than 
 #include<stdlib.h>
 
 main(){
-//VARIBLES
+//VARIABLES
     int num;
 //INPUT-OUTPUT
     do{

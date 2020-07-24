@@ -4,7 +4,7 @@
 #include<stdlib.h>
 
 main(){
-//VARIBLES
+//VARIABLES
     int age, quantity = 0;
     int i = 0, persons = 15;
 //INPUT

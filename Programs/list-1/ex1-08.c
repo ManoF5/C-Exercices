@@ -6,7 +6,7 @@ print the message: invalid number */
 #include<stdlib.h>
 
 main(){
-//VARIBLES
+//VARIABLES
     int number;
 //INPUT
     printf("Type a number(1-5):");

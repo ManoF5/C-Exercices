@@ -9,7 +9,7 @@ d) The sex of the highest person
 #include<string.h>
 
 main(){
-//VARIBLES
+//VARIABLES
     float height, lo_height = 1000, hi_height = 0, avw_height = 0;
     char sex, hi_sex[10];
     int i = 0, woman = 0, num_mans = 0;

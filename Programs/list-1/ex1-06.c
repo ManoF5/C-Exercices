@@ -9,7 +9,7 @@
 #include<stdlib.h>
 
 main(){
-//VARIBLES
+//VARIABLES
     char name[30];
     float A1,A2,A3;
     float average;

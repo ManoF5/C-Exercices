@@ -5,7 +5,7 @@
 #include<stdlib.h>
 
 main(){
-//VARIBLES
+//VARIABLES
     int num, hi_num = 0;
 //INPUT-OUTPUT
     do{

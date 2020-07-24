@@ -10,7 +10,7 @@
 #include<stdlib.h>
 
 main(){
-//VARIBLES
+//VARIABLES
     float cost_consumer, cost_fabric, taxes = 1.45, distributor = 1.28;
 //INPUT
     printf("\nCost of fabric of a car: ");

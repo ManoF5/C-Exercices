@@ -8,7 +8,7 @@ Level 3 teacher: $25.00 per hour/class */
 #include<stdlib.h>
 
 main(){
-//VARIBLES
+//VARIABLES
     float hours, salary;
     int class, level;
 //INPUT

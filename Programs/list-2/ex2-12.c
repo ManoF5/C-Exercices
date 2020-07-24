@@ -6,7 +6,7 @@ containing the employee number and the number of months of work for this employe
 #include<stdlib.h>
 
 main(){
-//VARIBLES
+//VARIABLES
     int i = 0, employees, employee_number, months_work;
     int newest_employee = 1000, newest_number, oldest_employee = 0, oldest_number;
 //INPUT

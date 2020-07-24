@@ -9,7 +9,7 @@ d) 10% for other employees
 #include<stdlib.h>
 
 main(){
-//VARIBLES
+//VARIABLES
     char name[30];
     float salary, new_salary;
     float minimum_wages = 1.045;

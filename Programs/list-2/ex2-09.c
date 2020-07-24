@@ -4,7 +4,7 @@
 #include<stdlib.h>
 
 main(){
-//VARIBLES
+//VARIABLES
     int i;
 //INPUT-OUTPUT
     for(i = 0;i < 100;i++){

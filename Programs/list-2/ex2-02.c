@@ -4,7 +4,7 @@
 #include<stdlib.h>
 
 main(){
-//VARIBLES
+//VARIABLES
     char name[30];
     int times = 0;
 //INPUT

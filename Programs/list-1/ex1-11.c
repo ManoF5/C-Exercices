@@ -4,7 +4,7 @@
 #include<stdlib.h>
 
 main(){
-//VARIBLES
+//VARIABLES
     int N1, N2, N3;
 //INPUT
     printf("Type three numbers: ");

@@ -10,7 +10,7 @@ Senior     = 18 - 25 years
 #include<stdlib.h>
 
 main(){
-//VARIBLES
+//VARIABLES
     int age;
 //INPUT
     printf("Type your age: ");

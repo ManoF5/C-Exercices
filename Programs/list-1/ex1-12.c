@@ -7,7 +7,7 @@
 #include<stdlib.h>
 
 main(){
-//VARIBLES
+//VARIABLES
     float A, B, result;
     char C;
 //INPUT

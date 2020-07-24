@@ -4,7 +4,7 @@
 #include<stdlib.h>
 
 main(){
-//VARIBLES
+//VARIABLES
     int month;
 //INPUT
     printf("Type the number of the month(1-12): ");

@@ -4,7 +4,7 @@
 #include<stdlib.h>
 
 main(){
-//VARIBLE
+//VARIABLE
     int num;
 //INPUT-OUTPUT
     do{

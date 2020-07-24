@@ -4,7 +4,7 @@
 #include<stdlib.h>
 
 main(){
-//VARIBLES
+//VARIABLES
     int num = 1, sum = 0;
     int i;
 //INPUT

@@ -7,7 +7,7 @@ corresponding operation.  */
 #include<stdlib.h>
 
 main(){
-//VARIBLES
+//VARIABLES
     int option;
     float n1, n2, total;
 //INPUT

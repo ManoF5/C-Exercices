@@ -4,7 +4,7 @@
 #include<stdlib.h>
 
 main(){
-//VARIBLES
+//VARIABLES
     int num, hi_num = 0, lo_num = 100000; 
     int i = 0, quant = 20;
 //INPUT
