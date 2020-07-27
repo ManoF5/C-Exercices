@@ -12,7 +12,7 @@ main(){
 //VARIABLES
     char name[30];
     float salary, new_salary;
-    float minimum_wages = 1.045;
+    float minimum_wages = 1045;
 //INPUT
     printf("Type your name: ");
     gets(name);
