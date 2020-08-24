@@ -4,5 +4,5 @@
   
 - [x] List 1
 - [x] List 2
-- [ ] List 3
+- [x] List 3
 - [ ] List 4
