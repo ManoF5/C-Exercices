@@ -5,4 +5,3 @@
 - [x] List 1
 - [x] List 2
 - [x] List 3
-- [ ] List 4
